@@ -4,7 +4,7 @@ import Image from "next/image";
 import { Badge } from "@/components/ui/badge";
 import DeleteDialog from "./_components/delete-dialog";
 import EditButton from "./_components/edit-button";
-import { getMoodById } from "@/app/lib/moods";
+import { getMoodById } from "@/app/lib/mood";
 import { getJournalEntry } from "@/actions/journal";
 
 export default async function JournalEntryPage({ params }) {
