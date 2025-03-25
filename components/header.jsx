@@ -31,7 +31,7 @@ async function Header() {
         </Link>
         </SignedIn>
 
-        <Link href="journal/write">
+        <Link href="/journal/write">
           
           <Button variant="journal" className="flex items-center gap-2"><PenBox size={18}/><span className='hidden md:inline'>New Journal</span></Button>
         </Link>

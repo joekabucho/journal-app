@@ -203,7 +203,7 @@ export default function JournalEntryPage() {
         </h1>
 
         {isLoading && (
-          <BarLoader className="mb-4" width={"100%"} color="orange" />
+          <BarLoader className="mb-4" width={"100%"} color="gray" />
         )}
 
         <div className="space-y-2">
@@ -307,7 +307,7 @@ export default function JournalEntryPage() {
                     </SelectItem>
                   ))}
                   <SelectItem value="new">
-                    <span className="text-orange-600">
+                    <span className="text-gray-600">
                       + Create New Collection
                     </span>
                   </SelectItem>
