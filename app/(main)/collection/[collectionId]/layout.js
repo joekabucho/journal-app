@@ -8,7 +8,7 @@ export default function CollectionLayout({ children }) {
       <div className="mb-8">
         <Link
           href="/dashboard"
-          className="text-sm text-orange-600 hover:text-orange-700"
+          className="text-sm text-gray-600 hover:text-gray-700"
         >
           ← Back to Dashboard
         </Link>

@@ -119,7 +119,7 @@ export function JournalFilters({ entries }) {
           <Button
             variant="ghost"
             onClick={clearFilters}
-            className="text-orange-600"
+            className="text-gray-600"
           >
             Clear Filters
           </Button>

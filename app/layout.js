@@ -35,7 +35,7 @@ export default function RootLayout({ children }) {
         {children}
         </main> 
 
-        <footer className="bg-orange-50 py-12 bg-opacity-10">
+        <footer className="bg-gray-50 py-12 bg-opacity-10">
           <div className="mx-auto px-4 text-center text-gray-900">
             <p>
               Made with ❤️ by Joe Kabucho
