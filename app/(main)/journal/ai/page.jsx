@@ -38,11 +38,11 @@ const JournalPage = () => {
     })
   }
 
-  const renderEntries = (data = []) => {
-    return data.map((entry) => (
-      // <EntryCard key={entry.id} entry={entry} removeEntry={removeEntry} />
-    ))
-  }
+  // const renderEntries = (data = []) => {
+  //   return data.map((entry) => (
+  //      <EntryCard key={entry.id} entry={entry} removeEntry={removeEntry} />
+  //   ))
+  // }
 
   return (
     <div className="p-10 bg-zinc-400/10 overflow-y-scroll">
