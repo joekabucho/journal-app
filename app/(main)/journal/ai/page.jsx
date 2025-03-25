@@ -1,8 +1,8 @@
 'use client'
 
-import EntryCard from '../../../../components/EntryCard'
-import NewEntryCard from '../../../../Components/NewEntryCard'
-import Question from '../../../../Components/Questions'
+//import EntryCard from '../../../../components/EntryCard'
+//import NewEntryCard from '../../../../Components/NewEntryCard'
+//import Question from '../../../../Components/Questions'
 import { getEntries, ask, deleteEntry } from '@/utils/api'
 import { useEffect, useState } from 'react'
 import { ReactTyped } from 'react-typed'
@@ -40,7 +40,7 @@ const JournalPage = () => {
 
   const renderEntries = (data = []) => {
     return data.map((entry) => (
-      <EntryCard key={entry.id} entry={entry} removeEntry={removeEntry} />
+      // <EntryCard key={entry.id} entry={entry} removeEntry={removeEntry} />
     ))
   }
 
@@ -53,7 +53,7 @@ const JournalPage = () => {
         </div>
       </div>
       <div className="grid gap-4 pl-10 mb-2 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-4">
-        <NewEntryCard />
+        {/* <NewEntryCard /> */}
         {renderEntries(entries)}
       </div>
       {loadingEntries && <div className="text-xl p-10">Loading entries...</div>}
