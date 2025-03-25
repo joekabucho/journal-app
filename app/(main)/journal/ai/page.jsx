@@ -1,8 +1,8 @@
 'use client'
 
-import EntryCard from '@/Components/EntryCard'
-import NewEntryCard from '@/Components/NewEntryCard'
-import Question from '@/Components/Questions'
+import EntryCard from '../../../../components/EntryCard'
+import NewEntryCard from '../../../../Components/NewEntryCard'
+import Question from '../../../../Components/Questions'
 import { getEntries, ask, deleteEntry } from '@/utils/api'
 import { useEffect, useState } from 'react'
 import { ReactTyped } from 'react-typed'
